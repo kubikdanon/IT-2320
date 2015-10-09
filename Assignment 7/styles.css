@@ -1,0 +1,25 @@
+.name {
+	font-size:20px;
+	color:blue;
+	font-weight:bold;
+}
+.country {
+	font-size:18px;
+	color:blue;
+	font-weight:bold;
+	font-style:italic;
+	display:block;
+}
+.text {
+	display:block;
+}
+td {
+	text-align:center;
+	padding:10px;
+}
+#center {
+	border-left:1px blue solid;
+	border-right:1px blue solid;
+	font-weight:bold;
+	color:blue;
+}
