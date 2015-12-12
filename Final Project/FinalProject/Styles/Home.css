@@ -1,0 +1,272 @@
+﻿@media screen and (min-width: 321px)
+{
+    body {
+        width: 520px;
+        font-family: Calibri;
+        font-size: 12px;
+        margin: 0 auto;
+    }
+    footer {
+    text-align:right;
+    font-style:italic;
+    }
+    header h1 {
+        font-family: Cambria;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    header p {
+        font-family: Calibri;
+        font-size: 12px;
+        font-style: italic;
+        text-align: left;
+    }
+
+    .yesaccount div {
+        display: inline-block;
+    }
+
+    .noaccount div {
+        display: inline-block;
+    }
+
+    .lefttext {
+        width: 200px;
+        vertical-align: top;
+        padding-top: 20px;
+        opacity: 0.75;
+    }
+    .mobile_lefttext {
+    display:none !important;
+    }
+    main {
+        border-radius: 57px 57px 57px 57px;
+        -moz-border-radius: 57px 57px 57px 57px;
+        -webkit-border-radius: 57px 57px 57px 57px;
+        border: 5px dotted blue;
+        margin: 5px;
+        padding: 7px;
+    }
+
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 5px solid blue;
+        margin: 1em 0;
+        padding: 0;
+        opacity: 0.65;
+    }
+
+    button {
+        color: white;
+        border: 1px solid blue;
+        background-color: blue;
+        width: 106px;
+        margin-top: 5px;
+        margin-left: 87px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+
+    button:hover {
+        background-color: lightskyblue;
+    }
+
+    label, input {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .yesaccount label {
+        width: 38%;
+    }
+
+    .yesaccount input {
+        width: 60%;
+    }
+
+    .noaccount label {
+        width: 30%;
+    }
+
+    .noaccount input {
+        width: 65%;
+    }
+    #loginerror, #createerror {
+        color:red;
+    }
+    .table {
+        width:80%;
+        margin: 0 auto;
+        border:2px solid teal;
+    }
+    .table input {
+        width:130px;
+        height:20px;
+    }
+    .table button {
+        width:60px;
+        margin-left:40px;
+        height:20px;
+    }
+    .tableleft {
+        width:30%;
+        display:inline-block;
+    }
+    .tableright {
+        border-left:2px solid teal;
+    }
+    .tableitem {
+        padding-bottom:10px;
+        padding-left:10px;
+    }
+    span {
+        font-weight:bold;
+        color:teal;
+    }
+    .tableright {
+        display:inline-block;
+    }
+    .addform {
+        width:50%;
+        margin: 0 auto;
+    }
+     .addform label {
+        width: 32%;
+    }
+    .addform input {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+    body {
+        width: 300px;
+        font-family: Calibri;
+        font-size: 12px;
+
+    }
+    footer {
+    text-align:center;
+    font-style:italic;
+    }
+    header h1 {
+        font-family: Cambria;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    header p {
+        font-family: Calibri;
+        font-size: 12px;
+        font-style: italic;
+        text-align: center;
+    }
+    .yesaccount div {
+        display: inline-block;
+    }
+    .noaccount div {
+        display: inline-block;
+    }
+    .lefttext {
+        display:none !important;
+    }
+    main {
+        border-radius: 57px 57px 57px 57px;
+        -moz-border-radius: 57px 57px 57px 57px;
+        -webkit-border-radius: 57px 57px 57px 57px;
+        border: 5px dotted blue;
+        margin: 5px;
+        padding: 7px;
+    }
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 5px solid blue;
+        margin: 1em 0;
+        padding: 0;
+        opacity: 0.65;
+    }
+    button {
+        color: white;
+        border: 1px solid blue;
+        background-color: blue;
+        width: 230px;
+        margin-left: 14px;
+        margin-bottom: 14px;
+        height:40px;
+        -moz-border-radius: 15px;
+        -webkit-border-radius: 15px;
+    }
+    button:hover {
+        background-color: lightskyblue;
+    }
+    label, input {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .yesaccount label {
+        width: 38%;
+    }
+    .yesaccount input {
+        width: 60%;
+    }
+    .noaccount label {
+        width: 30%;
+    }
+    .noaccount input {
+        width: 65%;
+    }
+    #loginerror, #createerror {
+        color:red;
+    }
+    .table {
+        width:80%;
+        margin: 0 auto;
+    }
+    .table input {
+        width:130px;
+        height:20px;
+    }
+    .table button {
+        width:60px;
+        margin-left:40px;
+        height:20px;
+    }
+    .tableitem {
+        padding-bottom:10px;
+        padding-left:10px;
+        display:block;
+    }
+    .table {
+        width:400px;
+    }
+    .tableleft div {
+        float:left;
+    }
+    tableright div {
+        float:right;
+    }
+    span {
+        font-weight:bold;
+        color:teal;
+    }
+    .tableright {
+        display:block;
+    }
+
+     .addform label {
+        width: 25%;
+    }
+    .addform input {
+        width: 100%;
+    }
+    #addelement {
+        margin-top:10px;
+    }
+}
